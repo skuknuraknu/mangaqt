@@ -4,7 +4,11 @@
 
 WEBSITE BACA MANGA
 
-Dibuat menggunakan html + css. Ini adalah website yang awalnya saya buat untuk tugas kuliah, tetapi nantinya akan dilanjutkan karena masih sangat banyak fitur - fitur yang belum beres seperti responsive dan dinamis konten
+Dibuat menggunakan html + css. Ini adalah website yang awalnya saya buat untuk tugas kuliah, tetapi nantinya akan dilanjutkan karena masih sangat banyak fitur - fitur yang belum beres seperti responsive dan dinamis konten.
+
+✅ VIEWABLE
+❌ RESPONSIVE
+❌ DYNAMIC
 
 GAMBAR : 
 ![image](https://user-images.githubusercontent.com/106018819/193988551-c09b51fb-19e2-4284-9f39-8fcf42cbded1.png)
