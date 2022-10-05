@@ -1,2 +1,4 @@
-# mangaqt
-Manga reader website
+# MANGAQT
+Manga reading website using pure html css
+
+![<Badge Name>](https://img.shields.io/badge/<Badge Text>-<Background Color>?style=for-the-badge&logo=<Icon Name>&logoColor=<Logo Color>)
