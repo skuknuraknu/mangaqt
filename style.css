@@ -1,0 +1,466 @@
+body{
+	background: url('img/maxresdefault.jpg');
+}
+	.wallpaper-op{
+		z-index: -1;
+		position: absolute;
+		top: 90%;
+		left: 70%;
+		opacity: 0.2;
+	}	.wallpaper-haikyu{
+		z-index: -1;
+		position: absolute;
+		top: 150%;
+		right: 70%;
+		opacity: 0.2;
+	}
+	#blue{
+		background-color: #0068CB;
+	}
+	#red{
+		background-color: #EB1D36;
+	}
+	#red2{
+		background-color: #D61C4E;
+	}
+	#pink{
+		background-color:#FF87B2;
+	}
+	#purple{
+		background-color:#533483;
+	}
+	#yellow1{
+		background-color: #FEDB39;
+	}
+	#yellow{
+		background-color: #FECD70;
+	}
+	#blue2{
+		background-color: #277BC0;
+	}#blue3{
+		background-color: #2A0944;
+	}
+	/* Reset semua css margin dan padding */
+	*{
+		padding: 0;
+		margin: 0;
+		font-family: 'Work Sans', sans-serif;
+		overflow-x: hidden;
+	}
+	body{
+		background-color: white;
+	}
+	.navbarsipalingjago{
+		z-index: 2;
+		position: fixed;
+		background-color: white;
+		width: 100%;
+		height: 70px;
+		box-shadow: 1px 1px 5px black;
+	}
+	a{
+		display: inline-block;
+	}
+	.judul-web {
+		font-size: 30px;
+		padding-top:15px;
+		font-weight: bold;
+		color: brown;
+		padding-left: 200px;
+	}
+	.anak-judul{
+		font-size: 15px;
+		padding-bottom: 5px;
+		padding-left: 60px;
+	}
+	.btn-judul{
+		font-size: 15px;
+		margin-left: 60px;
+		padding: 6px 10px 6px 10px;
+		color: white;
+		background-color: #0068CB;
+		border-radius: 20px;
+	}
+	.btn-judul:hover{
+		font-size: 15px;
+		cursor: pointer;
+		margin-left: 60px;
+		padding: 6px 10px 6px 10px;
+		color: white;
+		background-color: black;
+		border-radius: 20px;
+	}
+	.gambar-pencari {
+		margin-top: 80px;
+	  float: left;
+	  width: 20%;
+	}
+	.gambar-pencari2 {
+		float: left;
+	  	width: 20%;
+		transform: rotate(-60deg);
+	}
+	.baris:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	.pencari{
+		z-index: 1;
+		position: absolute;
+		left: 50%;
+		top: 30%;
+		transform: translate(-50%, -50%);
+		padding: 10px;
+		width: 40%;
+		height: 240px;
+	}
+	.pencari-judul{
+		text-align: center;
+		padding-top: 40px;
+		font-weight: bold;
+		font-size: 28px;
+		color: #0068CB;
+	}
+	.pembantu-judul{
+		color: slategray;
+		padding-top: 10px;
+		text-align: center;
+	}
+	.kotak-pencari{
+		position: absolute;
+		left: 50%;
+		top: 60%;
+		transform: translate(-50%, -50%);
+		width: 300px;
+		height: 45px;
+		border: none;
+		background-color: #DFDFDE;
+		font-size: 18px;
+		color: #0068CB;
+		border-radius: 10px;
+	  padding-left: 25px;
+	}
+	input:focus {
+	   outline: none;
+	}
+	.btn-cari{
+			position: absolute;
+			background-color: #0068CB;
+			border-radius: 10px;
+			border: none;
+			color: white;
+			padding: 8px 10px 8px 10px;
+		left: 73%;
+		top: 60%;
+		transform: translate(-50%, -50%);
+	}
+	.btn-cari:hover{
+		position: absolute;
+		background-color: black;
+		cursor: pointer;
+		border-radius: 10px;
+		border: none;
+		color: white;
+		padding: 8px 10px 8px 10px;
+		left: 73%;
+		top: 55%;
+		transform: translate(-50%, -50%);
+	}
+	.post{
+		margin-top: 100px;
+		margin-left: 80px;
+	}
+	.kotak-post img{
+		border-radius: 19px;
+		object-fit: cover;
+	  	transition: all .2s ease;
+	  	z-index: 3;
+	}
+	.kotak-post img:hover{
+		background-color: #FFEEAF;
+		cursor: pointer;
+		 transform: scaleY(1.01);
+		border-radius: 19px;
+		box-shadow: 6px 5px 5px black;
+	}
+	.kotak-post .label{
+		cursor: pointer;
+		border-radius: 6px;
+		padding: 8px;
+		color: white;
+		margin-left: 10px;
+		position: absolute;
+		padding-left: 5px;
+		display: inline-block;
+	}
+	.kotak-post .l2{
+		margin-left: 64px;
+		transition: all 0.5s ease;
+	}
+	.kotak-post .l2:hover {
+		margin-left: 64px;
+		transform: scale(1.1);
+	}
+	.kotak-post .l3{
+		transition: all 0.5s ease;
+		margin-left: 140px;
+	}.kotak-post .l3:hover{
+			transform: scale(1.1);
+		margin-left: 140px;
+	}
+	.judul-post-besar{
+		text-decoration: none;
+		position: absolute;
+		margin-top: 50px;
+		margin-left:10px ;
+		color: black;
+		font-weight: bold;
+		font-size: 23px;
+	}
+	.btn, .btn-op{	
+		position: absolute;
+		margin-top: 230px;
+		margin-left: 10px;
+		display: inline-block;
+	}
+	.tahun{
+		position: absolute;
+		margin-top: 200px;
+		margin-left: 10px;
+		display: inline-block;
+	}
+	.kotak-post .paparan-op{
+		text-align: justify;
+		text-justify: inter-word;
+		color: #411530;
+		position: absolute;
+		display: inline-block;
+		margin-top: 85px;
+		margin-left: 11px;
+		padding-right: 20px;
+		font-size: 14px;
+	}
+	/* css untuk bagian post yang baru di update */
+	.post-update{
+		margin-top: 20px;
+		margin-left: 80px;
+	}
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	.ch{
+		font-size: 14px;
+	}
+	.playnow {
+		background-color: white;
+		margin-top: 5px;
+		box-shadow: 6px 6px 10px black;	
+		width: 150px;
+		padding-left: 10px;
+		padding-top: 3px;
+		border-radius: 5px;
+	}.playnow:hover{
+		cursor: pointer;
+		box-shadow: 1px 1px 1px black;	
+		background-color: white;
+		width: 150px;
+		padding-left: 10px;
+		padding-top: 3px;
+		border-radius: 5px;
+	}
+	.playnow a{
+		color: #0068CB;
+		padding-bottom: 10px;
+	}
+	.row {
+		margin-right: 10px;
+	  	display: flex;
+	}
+	.kolom {
+	  flex: 50%;
+	}
+	.gambar-post-update{
+		margin-top: 10px;
+		border-radius: 12px;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}.gambar-post-update:hover {
+		margin-top: 10px;
+		border-top-left-radius: 70px;
+		border-bottom-right-radius: 70px;
+		cursor: pointer;
+	}
+	.judul-post-update{
+			font-size: 17px;
+	}
+	.judul-post-update .title{
+		border-radius: 4px;
+		background-color: #CA4E79;
+		padding-left: 9px;
+		padding-right: 9px;
+		color: white;
+	}
+	.left{
+		flex: 85%;
+	}
+	.right{
+		flex: 15%;
+	}
+	.rating{
+		font-weight: bold;
+	}
+	.judul-kecil{
+		position: absolute;
+	}
+	.baca-sekarang{	
+		position: absolute;
+		margin-top: 18px;
+		left: 29.5%;
+		background-color: WHITE;
+		color: black;
+		font-weight: bold;
+		padding: 8px 7px 8px 7px;
+		border-radius: 12px;
+	}
+	.author{
+		display: flex;
+		position: absolute;
+		left: 62%;
+		top: 115%;
+		width: 450px;
+	}
+	.author-name{
+		padding-bottom: 6px;
+		opacity: 0.9;
+		padding-left: 3px;
+	}
+	.kiri{
+		flex: 10%;
+	}
+	.kanan{
+		padding-top: 14px;
+	}
+	.kolom-gambar-kiri{
+		flex: 40%;
+		margin-top: 40px;
+	}
+	.kolom-gambar-kiri .judul{
+		font-size: 23px;
+		font-weight: bold;
+	}
+	.kolom-gambar-kanan{
+		flex: 60%;
+		margin-top: 40px;
+	}
+	.kolom-gambar-kanan img{
+		border-radius: 19px;
+	}
+	.judul-section{
+		font-size: 20px;
+		background-color: #0068CB;
+		margin-right: 22px;
+		border-radius: 4px;
+		color: white;
+		padding: 4px;
+		text-align: center;
+	}
+	.kolom-pilihan-kiri{
+		flex: 60%;
+	}
+	.kolom-pilihan-kanan{
+		flex: 40%;
+	}
+	.gambar-pilihan{
+		margin-top: 20px;
+		width: 740px;
+		border-radius: 8px;
+	}
+	.play-post-1{
+		position: absolute;
+		left: 29%;
+		top: 313%;
+		transition: all 0.1 ease;
+	}.play-post-1:hover {
+		position: absolute;
+		cursor: pointer;
+		transform: scale(1.1);
+		left: 29%;
+		top: 313%;
+	}.play-post-2{
+		position: absolute;
+		left: 67%;
+		top: 385%;
+		transition: all 0.1 ease;
+	}.play-post-2:hover {
+		position: absolute;
+		cursor: pointer;
+		transform: scale(1.1);
+		left: 67%;
+		top: 385%;
+	}.play-post-3{
+		position: absolute;
+		left: 29%;
+		top: 455%;
+		transition: all 0.1 ease;
+	}.play-post-3:hover {
+		position: absolute;
+		cursor: pointer;
+		transform: scale(1.1);
+		left: 29%;
+		top: 455%;
+	}
+	.judul-post-pilihan{
+		padding-top: 100px;
+	}
+	.box-db{
+		background-color: red;
+	}
+	.goku-sticker{
+		position: absolute;
+		z-index: -1;
+		left: 70%;
+		top: 280%;
+		transform: rotate(60deg);
+		opacity: 0.2;
+	}
+	.dattekimi-sticker{
+		position: absolute;
+		z-index: -1;
+		opacity: 0.2;
+		left: 10%;
+		margin-top: 80px;
+		transform: rotate(45deg);
+	}
+	.footer{
+		overflow: hidden;
+		padding: 40px;
+		width: 100%;
+		height: 240px;
+		background-color: white;
+		box-shadow: 0px 10px 5px #888, 0px -10px 5px #888;
+	}
+	.footer-left{
+		flex: 40%;
+	}.footer-left .a-block a{
+		display: block;
+		padding-top: 15px;
+	}.footer-middle{
+	}.footer-right{
+		flex: 50%;
+	}.footer-right .map{
+		overflow-y: hidden;
+		width: 600px;
+		height: 220px;
+		margin-bottom: 10px;
+		box-shadow: 2px 3px 4px black;
+		border-radius: 10px;
+	}
+.totop{
+	margin-bottom: 20px;
+	margin-top: 105px;
+	position: relative;
+	left: 90%;
+	padding-top: 30px;
+}
